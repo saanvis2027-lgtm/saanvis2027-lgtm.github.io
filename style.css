@@ -1,9 +1,24 @@
-.footer{//basics CSS for footer
-  /*background-color: */
-  /*align-items: */
-  /*text-align: */
-  /*display: */
-  /*height: */
-  /*width: */
+.site-footer {
+  background-color: #f2e4cf;   /* beige background */
+  border-top: 4px solid #9ed0ff; /* light blue strip */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
 }
-  
+
+.site-footer a {
+  display: block;
+  color: #333;
+  text-decoration: underline;
+  margin-bottom: 6px;
+}
+
+.footer-left a {
+  margin-bottom: 10px;
+}
+
+.footer-right a {
+  margin-bottom: 8px;
+}
