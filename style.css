@@ -1,5 +1,5 @@
-.site-footer {
-  background-color: #D9B08C;   /* beige background */
+.site-footer {//styles the footer
+  background-color: #D9B08C;  
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
@@ -7,17 +7,10 @@
   font-family: Arial, sans-serif;
 }
 
-.site-footer a {
+.site-footer a {//styles the links in footer
   display: block;
   color: #333;
   text-decoration: underline;
   margin-bottom: 6px;
 }
 
-.footer-left a {
-  margin-bottom: 10px;
-}
-
-.footer-right a {
-  margin-bottom: 8px;
-}
