@@ -14,7 +14,8 @@
   margin-bottom: 6px;
 }
 
-.footer-left a {
+.footer-logo {
+  display: block;
   margin-bottom: 10px;
 }
 
