@@ -1,6 +1,6 @@
-/* Footer */
+
 .footer {
-    background-color: #d7b08d;   /* light tan */
+    background-color: #d7b08d;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,13 +8,11 @@
     min-height: 140px;
 }
 
-/* Logo */
 .footer-logo img {
     width: 90px;
     height: auto;
 }
 
-/* Right Side Links */
 .footer-links {
     display: flex;
     flex-direction: column;
