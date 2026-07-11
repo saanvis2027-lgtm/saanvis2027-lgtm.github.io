@@ -11,6 +11,7 @@
   display: block;
   color: #333;
   text-decoration: underline;
+  margin-bottom: 4px;
   
 }
 
@@ -19,7 +20,7 @@
   margin-bottom: 10px;
 }
 
-.footer-right a {
-  margin-bottom: 8px;
+.footer-right a:lastchild {
+  margin-bottom: 0px;
 }
 
