@@ -2,6 +2,8 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 200px;
+    background-color: #d7b08d; 
 }
 
 li a{
@@ -14,6 +16,16 @@ li a{
 li a:hover{
     background-color: #555555;
     color: white; 
+}
+
+.active{
+    background-color: #04AA6D;
+    color: white; 
+}
+
+ul li{
+    float: left;
+}
 
 .footer {
     background-color: #d7b08d;
