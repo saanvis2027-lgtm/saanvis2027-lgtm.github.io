@@ -50,7 +50,7 @@ li a:hover{
 
 .footer-links a {
     text-decoration: none;
-    color: #000;
+    color: black;
     font-size: 15px;
     font-family: Arial, sans-serif;
     transition: color 0.3s ease;
