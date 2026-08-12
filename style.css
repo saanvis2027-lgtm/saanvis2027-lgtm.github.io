@@ -347,3 +347,46 @@ li a:hover {
         flex-direction: column;
     }
 }
+
+/* ---------- ARTICLES GRID (articles.html) ---------- */
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 0 40px 48px;
+}
+
+.article-card {
+    background-color: #f3c9a1;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.article-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.article-card-top h4 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.article-card-top .btn {
+    padding: 6px 14px;
+    font-size: 0.85rem;
+}
+
+.article-card p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 800px) {
+    .article-grid {
+        grid-template-columns: 1fr;
+    }
+}
