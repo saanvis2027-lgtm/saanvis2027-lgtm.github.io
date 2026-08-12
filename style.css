@@ -78,7 +78,7 @@ li a:hover {
 
 /* ---------- HERO ---------- */
 .hero {
-    background: linear-gradient(#0b132b, #1c2541), url("images/stars-bg.jpg");
+    background: linear-gradient(#0b132b, #1c2541), url("images/stars-bg.avif");
     background-size: cover;
     background-position: center;
     color: white;
