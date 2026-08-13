@@ -390,3 +390,24 @@ li a:hover {
         grid-template-columns: 1fr;
     }
 }
+
+/*-----------Articles Formatting-------------*/
+body.article-page {
+  font-family: 'Google Sans', 'Segoe UI', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 40px 60px;
+  max-width: 900px;
+}
+
+.article-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.article-content p {
+  margin-bottom: 20px;
+}
