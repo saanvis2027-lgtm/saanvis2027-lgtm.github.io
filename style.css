@@ -396,6 +396,10 @@ body.article-page {
   font-family: 'Google Sans', 'Segoe UI', Arial, sans-serif;
   font-size: 18px;
   line-height: 1.6;
+  /* margin, padding, and max-width removed from here */
+}
+
+.article-content {
   margin: 0 auto;
   padding: 40px 60px;
   max-width: 900px;
