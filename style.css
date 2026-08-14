@@ -415,3 +415,10 @@ body.article-page {
 .article-content p {
   margin-bottom: 20px;
 }
+
+/*-----------About Us Formatting-------------*/
+body.about-page {
+  font-size: 18px;
+  line-height: 1.6;
+}
+ 
