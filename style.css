@@ -418,11 +418,11 @@ body.article-page {
 
 /*-----------About Us Formatting-------------*/
 body.about-page {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 24px;
+  line-height: 1.8;
 }
 
 body.about-page .article-content {
-  padding: 20px 30px; /* smaller than the article page's 40px 60px */
+  padding: 20px 10px; /* smaller than the article page's 40px 60px */
 }
  
